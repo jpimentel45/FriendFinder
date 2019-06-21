@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    width: 100%;
+}
+
+img {
+    width: 15vh;
+    place-self: center;
+}
+
+body {
+    background-color: orange;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    place-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+input, select {
+    text-align: center;
+    width: 50%;
+    /* place-self: center; */
+    align-self: center;
+    text-align-last: center;
+}
+
+#results-modal {
+    display: none;
+    text-align: center;
+    width: 100%;
+}
+
+h4 {
+    width: 50%;
+    place-self: center;
+}
