@@ -13,6 +13,6 @@
 
 ## Confirm Turbo Installation:
   In order to confirm that your Turbo installation was successful, run the following command:
-  $ turbo version 
+  - $ turbo version 
   Your terminal should output the following: 
-  >> 0.25.47 
+  -  0.25.47 
