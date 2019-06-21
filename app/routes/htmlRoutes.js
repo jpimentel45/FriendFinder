@@ -51,6 +51,18 @@ router.get("/profile/:username", (req, res) => {
   currentProfile.timestamp = timestamp.toString();
   res.render("profile", currentProfile);
 });
+//===============================================================
+//				ADD PROFILE
+//===============================================================
+router.post("/addprofile", (req, res) => {
+  const body = req.body;
+  //   const languages = req.body.languages.split(", ")
+  //render languages as an array
+  body["languages"] = req.body.languages.split(", ");
+
+  profiles[body.username] = body;
+  res.redirect("/profile/" + body.username);
+});
 
 /*  This route sends text back as plain text. */
 router.get("/send", (req, res) => {

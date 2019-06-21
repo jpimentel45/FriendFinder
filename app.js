@@ -30,6 +30,12 @@ const app = vertex.app(config) // initialize app with config options
 
 */
 
+var PORT = process.env.PORT || 8080;
+// set up a listener
+app.listen(PORT, function() {
+  console.log("app listen on port: ", PORT);
+});
+
 // import routes
 const index = require("./app/routes/htmlRoutes");
 const api = require("./app/routes/apiRoutes");

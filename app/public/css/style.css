@@ -42,3 +42,7 @@ h4 {
     width: 50%;
     place-self: center;
 }
+
+.row {
+    width: -webkit-fill-available;
+}
