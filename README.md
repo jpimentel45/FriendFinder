@@ -16,3 +16,21 @@
   - $ turbo version 
   Your terminal should output the following: 
   -  0.25.47 
+
+Terminal:
+   ![Terminal Screenshot](https://github.com/jpimentel45/FriendFinder/blob/master/app/public/images/terminal.png "Logo Title Text 1")
+   1. cd into FriendFinder
+   2. Run either: turbo devserver, or node app.js
+   3. go to localhost:3000 for turbo, localhost:8080 for node
+   
+   
+Accessing Local Host:
+   ![local host Screenshot](https://github.com/jpimentel45/FriendFinder/blob/master/app/public/images/main.png "Logo Title Text 1")
+
+
+Accessing Main Route :
+   ![main route Screenshot](https://github.com/jpimentel45/FriendFinder/blob/master/app/public/images/home.png "Logo Title Text 1")
+
+
+   
+   
