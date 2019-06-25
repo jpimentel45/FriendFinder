@@ -10,7 +10,6 @@ const path = require("path");
 	Apps can also be initialized with config options as shown in the commented out example below. Options
 	include setting views directory, static assets directory, and database settings. To see default config
 	settings, view here: https://www.turbo360.co/docs 
-
 const config = {
 	views: 'views', 		// Set views directory 
 	static: 'public', 		// Set static assets directory
@@ -25,9 +24,7 @@ const config = {
 		}
 	}
 }
-
 const app = vertex.app(config) // initialize app with config options
-
 */
 
 // import routes
