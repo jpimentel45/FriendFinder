@@ -29,7 +29,7 @@ const config = {
 const app = vertex.app(config) // initialize app with config options
 
 */
-
+// test
 // import routes
 const index = require("./app/routes/htmlRoutes");
 const api = require("./app/routes/apiRoutes");
