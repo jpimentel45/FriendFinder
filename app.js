@@ -1,5 +1,5 @@
 // Full Documentation - https://www.turbo360.co/docs
-const vertex = require("vertex360")({ site_id: process.env.TURBO_APP_ID });
+//const vertex = require("vertex360")({ site_id: process.env.TURBO_APP_ID });
 
 const app = vertex.express(); // initialize app
 var express = require("express");
